@@ -1,0 +1,349 @@
+
+
+*,
+*::before,
+*::after
+ {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	color: #EC1630;
+}
+
+img {
+    vertical-align: top;
+}
+h1, h2, h3, h4 
+{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+/* ______________________________ */
+
+.wrapper {
+	overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.main-block__container {
+	max-width: 1140px;
+    width: 100%;
+    margin: 50px auto;
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	display: block;
+	padding: 50px;
+}
+.text-block__container {
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+}
+.text-block-header__container {
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	color: #131718;
+
+}
+
+.text-block-li__container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 20px 0px 0px 24px;
+	gap: 8px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+
+}
+li {
+    color: #EC1630; 
+   }
+li span {
+	color: #131718;
+   }
+
+.action-block__container {
+	
+	display: flex;
+	align-items: flex-start;
+	padding: 10px;
+	gap: 128.5px;
+	width: 100%;
+	margin: 25px 0 25px 0;
+}
+
+
+
+
+/* Первая секция работы с пдф */
+
+.download-block__container {
+	display: flex;
+	flex-direction: column;
+	max-width: 229px;
+	justify-content: center;
+	align-items:center
+}
+.download-block-header__container {
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000000;
+}
+/* Блок со скачиванием заявлений */
+.download-block-pdf__container {
+	display: flex;
+	justify-content: center;
+	margin: 15px 0;
+	text-align: center;
+	
+
+  }
+
+.img1 {
+	margin: 0px 11px 0 0px;
+}
+.img2 {
+	margin: 0px 0px 0 11px;
+}
+
+.link1 {
+	margin-right: 6px;
+	margin-top: -33px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	color: #EC1630;
+}
+
+.link2 {
+	margin-right: 6px;
+	margin-top: -33px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	color: #EC1630;
+}
+
+/* _____________________________ */
+
+/* Блок с загрузкой заявлений */
+
+.load-block__container {
+	max-width: 274px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	
+}
+.load-block-header__container {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000000;
+	
+
+}
+
+.input__wrapper {
+	display: flex;
+	justify-content: space-around;
+	max-width: 84%;
+	margin-top: 35px ;
+	text-align: center;
+	
+  }
+
+  .input__file1 {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+  }
+  .input__file-button1{
+	cursor: pointer;
+	margin-right: 8px;
+  }
+  .input__file-button2{
+	cursor: pointer;
+	margin-left: 9px;
+  }
+    .input__file2 {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+  }
+
+
+.payment-block__container {
+	max-width: 274px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 23px;
+}
+.payment-block-header__container {
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000000;
+
+}
+.text-red {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #EC1630;
+}
+.button-block__container {
+
+	align-items: center;
+	padding: 7px 50px;
+	max-width: 245px;
+	background: #EC1630;
+	border-radius: 25px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 154%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 12px;
+
+}
+.important-inf-block__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 34px;
+	width: 100%;
+	background: #EEEEEE;
+	border: 1px solid #EC1630;
+}
+.imp-inf {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	padding: 15px;
+}
+
+
+/* ____________________________________________ */
+
+
+
+/* PC */
+@media (max-width: 1087px) {
+    [class*="__container"] {
+    max-width: 970px;
+    }
+}
+@media (max-width: 1030px) {
+    [class*="__container"] {
+    max-width: 970px;
+    }
+	.input__wrapper {
+		margin-top: 15px;
+	}
+}
+
+/* Ipad */
+@media (max-width: 991.98px) {
+    [class*="__container"] {
+    max-width: 850px;
+    }
+	.main-block__container {
+		margin: 30px 10px 30px 10px;
+
+	}
+	.action-block__container {
+		display: block;
+		align-items: center;
+	}
+	.download-block__container {
+		margin-bottom: 30px;
+	}
+	.load-block__container {
+		margin-bottom: 30px;
+	}
+}
+
+
+
+/* Mobile */
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+    max-width: none;
+    }
+}
+/* Mobile small */
+@media (max-width: 479.98px) {
+    [class*="__container"] {
+        max-width: none;
+        }
+}
+/* Mobile small */
+@media (max-width: 320.98px) {
+    [class*="__container"] {
+        max-width: none;
+        }
+}
